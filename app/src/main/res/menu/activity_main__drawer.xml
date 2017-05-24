@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_castracion"
+            android:icon="@drawable/ic_menu_castracion2"
+            android:title="Castraciones" />
+        <item
+            android:id="@+id/nav_salud"
+            android:icon="@drawable/ic_menu_salud"
+            android:title="Vacunaciones" />
+        <item
+            android:id="@+id/nav_adopta"
+            android:icon="@drawable/ic_menu_adopta"
+            android:title="Adopciones" />
+        <item
+            android:id="@+id/nav_general"
+            android:icon="@drawable/ic_menu_general"
+            android:title="General" />
+        <item
+            android:id="@+id/nav_consejo"
+            android:icon="@drawable/ic_menu_consejo"
+            android:title="Consejos" />
+    </group>
+
+    <item android:title="Grupos">
+        <menu>
+            <item
+                android:id="@+id/nav_grupos"
+                android:icon="@drawable/ic_menu_grupo"
+                android:title="Grupos asociados" />
+        </menu>
+    </item>
+
+</menu>
